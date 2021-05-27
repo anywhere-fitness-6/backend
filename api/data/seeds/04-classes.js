@@ -6,7 +6,6 @@ exports.seed = function(knex) {
       // Inserts seed entries
       return knex('classes').insert([
         {
-          classId: 1,
           trainerId: 1,
           className: "Weight lifting",
           type: "Resistance",
@@ -19,7 +18,6 @@ exports.seed = function(knex) {
           maxRegistered: 3
         },
         {
-          classId: 2,
           trainerId: 1,
           className: "Boxing",
           type: "Impact",
@@ -32,7 +30,6 @@ exports.seed = function(knex) {
           maxRegistered: 1
         },
         {
-          classId: 3,
           trainerId: 2,
           className: "Pilates",
           type: "Stretching",
@@ -45,7 +42,6 @@ exports.seed = function(knex) {
           maxRegistered: 8
         },
         {
-          classId: 4,
           trainerId: 2,
           className: "Jogging",
           type: "Aerobic",
@@ -58,7 +54,6 @@ exports.seed = function(knex) {
           maxRegistered: 20
         },
         {
-          classId: 5,
           trainerId: 2,
           className: "Sprints",
           type: "Anaerobic",

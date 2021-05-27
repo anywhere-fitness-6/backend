@@ -5,7 +5,6 @@ exports.seed = function(knex) {
       // Inserts seed entries
       return knex('users').insert([
         {
-          userId: 1,
           firstName: "Mike",
           lastName: "Muscles",
           email: "muscles@musclehead.com",
@@ -15,7 +14,6 @@ exports.seed = function(knex) {
           updated_at: "2021-05-25T17:10:49.115Z"
         },
         {
-          userId: 2,
           firstName: "Anna",
           lastName: "Roebic",
           email: "aroebic@breathefit.com",
@@ -25,7 +23,6 @@ exports.seed = function(knex) {
           updated_at: "2021-05-25T17:49:27.794Z"
         },
         {
-          userId: 3,
           firstName: "Elizabeth",
           lastName: "Allen",
           email: "eallen@gmail.com",
@@ -35,7 +32,6 @@ exports.seed = function(knex) {
           updated_at: "2021-05-25T17:55:45.119Z"
         },
         {
-          userId: 4,
           firstName: "Dylan",
           lastName: "Heart",
           email: "dheart@gmail.com",
@@ -45,7 +41,6 @@ exports.seed = function(knex) {
           updated_at: "2021-05-25T17:58:07.172Z"
         },
         {
-          userId: 5,
           firstName: "Mike",
           lastName: "Flores",
           email: "mflores@gmail.com",
@@ -56,4 +51,4 @@ exports.seed = function(knex) {
         }
       ]);
     });
-};
+ };
